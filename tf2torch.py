@@ -30,6 +30,9 @@ if __name__ == "__main__":
     # convert_tf_checkpoint_to_pytorch(tf_checkpoint_path="F:\\Corpus\\uncased_L-12_H-768_A-12\\bert_model.ckpt",
     #                                  bert_config_file="F:\\Corpus\\uncased_L-12_H-768_A-12\\bert_config.json",
     #                                  pytorch_dump_path="F:\\Corpus\\uncased_L-12_H-768_A-12\\bert_model.bin")
-    convert_tf_checkpoint_to_pytorch(tf_checkpoint_path="F:\\Corpus\\chinese_L-12_H-768_A-12\\bert_model.ckpt",
-                                     bert_config_file="F:\\Corpus\\chinese_L-12_H-768_A-12\\bert_config.json",
-                                     pytorch_dump_path="F:\\Corpus\\chinese_L-12_H-768_A-12\\pytorch_model.bin")
+    # convert_tf_checkpoint_to_pytorch(tf_checkpoint_path="F:\\Corpus\\chinese_L-12_H-768_A-12\\bert_model.ckpt",
+    #                                  bert_config_file="F:\\Corpus\\chinese_L-12_H-768_A-12\\bert_config.json",
+    #                                  pytorch_dump_path="F:\\Corpus\\chinese_L-12_H-768_A-12\\pytorch_model.bin")
+    convert_tf_checkpoint_to_pytorch(tf_checkpoint_path="F:\\Corpus\\Summarization\\biobert_v1.1_pubmed\\model.ckpt",
+                                     bert_config_file="F:\\Corpus\\Summarization\\biobert_v1.1_pubmed\\bert_config.json",
+                                     pytorch_dump_path="F:\\Corpus\\Summarization\\biobert_v1.1_pubmed\\pytorch_model.bin")
